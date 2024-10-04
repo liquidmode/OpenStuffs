@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Animated Webpage with Video Background</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero-section">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline id="background-video">
+            <source src="bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Content over the video -->
+        <div class="container">
+            <h1 class="headline">Open Stuffs By Liquid</h1>
+            <p class="subheadline">Welcome to a world of beauty and elegance</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">Explore the Experience</h2>
+            <p class="section-description">Designed with care, optimized for mobile devices, and built for a seamless experience.</p>
+            <button class="explore-btn" id="discover-more-btn">Discover More</button>
+        </div>
+    </section>
+
+    <!-- Hidden Content Section -->
+    <section class="more-content-section" id="more-content">
+        <div class="container">
+            <h2 class="section-title">More Awesome Stuff</h2>
+            <div class="more-content-grid">
+                <div class="more-item" data-page="magisk-module.html">Magisk Module</div>
+                <div class="more-item" data-page="gcam-xml.html">G-Cam & .xml</div>
+                <div class="more-item" data-page="tweaks.html">Tweaks</div>
+                <div class="more-item" data-page="devices.html">Devices</div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Services Section (example of more content already shown) -->
+    <section class="services-section">
+        <div class="container">
+            <h2 class="section-title">Stuffs</h2>
+            <div class="services-grid">
+                <div class="service-item" data-page="creative-design.html">
+                    <img src="t.jpg" alt="GODSPEED Thumbnail" class="service-thumbnail">
+                    <i class="icon-service fas fa-paint-brush"></i>
+                    <h3>GODSPEED</h3>
+                    <p>We bring your visions to life with stunning, creative designs that captivate.</p>
+                </div>
+                <div class="service-item" data-page="web-development.html">
+                    <img src="t.jpg" alt="Web Development Thumbnail" class="service-thumbnail">
+                    <i class="icon-service fas fa-code"></i>
+                    <h3>WISP</h3>
+                    <p>Responsive and efficient websites built for the modern world.</p>
+                </div>
+                <div class="service-item" data-page="mobile-optimization.html">
+                    <img src="t.jpg" alt="Mobile Optimization Thumbnail" class="service-thumbnail">
+                    <i class="icon-service fas fa-mobile-alt"></i>
+                    <h3>STRP</h3>
+                    <p>Your website will look and function beautifully on any device.</p>
+                </div>
+                <div class="service-item" data-page="mobile-optimization.html">
+                    <img src="t.jpg" alt="Mobile Optimization Thumbnail" class="service-thumbnail">
+                    <i class="icon-service fas fa-mobile-alt"></i>
+                    <h3>UNLOCKER</h3>
+                    <p>Your website will look and function beautifully on any device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Aesthetic Webpage</p>
+    </footer>
+
+    <!-- Add the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
