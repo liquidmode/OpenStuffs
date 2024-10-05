@@ -257,6 +257,48 @@ body {
 
 
 
+/* Styling for the options */
+.device-options {
+    display: none; /* Hidden by default */
+    background-color: #1c1c1e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.device-options a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.device-options a:hover {
+    background-color: #555; /* Optional: Change background on hover */
+}
+
+/* Show options on hover */
+.more-item:hover .device-options {
+    display: block; /* Make the options visible when hovering */
+}
+
+.device-options {
+    display: none;
+    background-color: #1c1c1e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional shadow effect */
+    transition: all 0.3s ease;
+}
+
+
 
 
 

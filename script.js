@@ -27,3 +27,13 @@ document.querySelectorAll('.service-item').forEach(item => {
         window.location.href = pageUrl; // Redirect to the corresponding page
     });
 });
+
+
+document.getElementById('devices-item').addEventListener('click', function() {
+    var options = document.getElementById('device-options');
+    if (options.style.display === 'block') {
+        options.style.display = 'none';
+    } else {
+        options.style.display = 'block';
+    }
+});
